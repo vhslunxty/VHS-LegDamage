@@ -1,4 +1,4 @@
-# LegDamagePlugin-SL
+# VHS-LegDamage
 
 [![Framework](https://img.shields.io/badge/Framework-EXILED-red.svg)](https://github.com/Exiled-Team/EXILED)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
