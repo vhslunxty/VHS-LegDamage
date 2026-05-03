@@ -1,30 +1,30 @@
 # VHS-LegDamage
 
-[![Framework](https://img.shields.io/badge/Framework-EXILED-red.svg)](https://github.com/Exiled-Team/EXILED)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
+[! [Framework](https://img.shields.io/badge/Framework-EXILED-red.svg)](https://github.com/Exiled-Team/EXILED)
+![Версия](https://img.shields.io/badge/Version-1.0.0-blue.svg)
 
-**LegDamagePlugin-SL** est un plugin pour les serveurs **SCP: Secret Laboratory** qui ajoute une gestion personnalisée des dégâts infligés aux jambes des joueurs. Idéal pour renforcer l'immersion ou ajuster l'équilibrage des chutes et des combats.
+**LegDamagePlugin-SL** - это плагин для серверов **SCP: Secret Laboratory**, который добавляет персонализированное управление повреждениями ног игроков. Идеально для улучшения погружения или уравновешивания падений и боев.
 
-## ✨ Fonctionnalités
+## ✨ Функции
 
-* **Dégâts de chute personnalisés :** Modifiez l'impact des chutes sur la santé des joueurs.
-* **Effets de statut :** Possibilité d'infliger automatiquement l'effet "Fracture" (Disabled/Leged) selon la hauteur de chute.
-* **Configuration flexible :** Ajustez chaque paramètre via le fichier de configuration standard d'EXILED.
-* **Compatibilité :** Conçu pour fonctionner avec la dernière version d'EXILED.
+* **Настраиваемые повреждения от падения:** Изменяйте влияние падений на здоровье игрока.
+* **Эффекты статуса:** Возможность автоматически наносить эффект «Перелом» (отключен/отключен) в зависимости от высоты падения.
+* **Гибкая конфигурация:** Настройте каждый параметр посредством стандартного файла конфигурации EXILED.
+* **Совместимость:** Разработан для работы с последней версией EXILED.
 * 
-## ⚙️ Configuration
+## ⚙️ Настройка
 
-Une fois le plugin lancé une première fois, un fichier de configuration sera généré. Voici un exemple des paramètres disponibles :
+После первого запуска плагина будет создан файл конфигурации. Вот пример доступных параметров:
 
-```yml
+``йл
 leg_damage:
   is_enabled: true
-  # Multiplicateur de dégâts de chute
-  fall_damage_multiplier: 1.5
-  # Hauteur minimale pour infliger l'effet "Fracture"
+  # Мультипликатор падения
+  fall_damage_multiplier: 1,5
+  # Минимальная высота для нанесения эффекта «Перелом»
   min_height_for_fracture: 10
-  # Liste des rôles ignorés par le plugin
+  # Список ролей, пропущенных плагином
   ignored_roles:
     - Scp173
     - Scp106
-```
+`
